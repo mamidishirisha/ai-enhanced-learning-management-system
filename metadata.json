@@ -1,0 +1,6 @@
+{
+  "name": "AI-Enhanced Learning Management System",
+  "description": "A comprehensive Learning Management System with custom quiz auto-evaluation, student performance prediction using a Decision Tree Classifier, and AI-powered learning gap analysis with Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

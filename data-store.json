@@ -1,0 +1,194 @@
+{
+  "students": [
+    {
+      "id": "student_uz0pcq62d",
+      "name": "patlolla raghavi",
+      "email": "raghavi@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "student_u9oh17qw0",
+      "name": "Mamidi shirisha",
+      "email": "237r1a66n9@cmrtc.ac.in",
+      "password": "SHIRI2327"
+    }
+  ],
+  "admins": [
+    {
+      "id": "admin-1",
+      "username": "admin",
+      "password": "admin123"
+    }
+  ],
+  "courses": [
+    {
+      "id": "course-1",
+      "course_name": "Introduction to Computer Science & Arrays",
+      "description": "Basic introduction to computer science, variables, syntax, and one-dimensional arrays."
+    },
+    {
+      "id": "course-2",
+      "course_name": "Data Structures & Algorithms",
+      "description": "Master binary trees, linked lists, stacks, queues, and graph representations."
+    },
+    {
+      "id": "course-3",
+      "course_name": "Mastering Recursion and Dynamic Programming",
+      "description": "Unlock recursion trees, divide and conquer algorithms, and dynamic programming memoization."
+    }
+  ],
+  "materials": [
+    {
+      "id": "mat-1",
+      "course_id": "course-1",
+      "title": "Arrays Cheat Sheet & Performance Notes",
+      "type": "pdf",
+      "file_path": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d"
+    },
+    {
+      "id": "mat-2",
+      "course_id": "course-1",
+      "title": "Interactive Coding Exercises on Arrays",
+      "type": "notes",
+      "file_path": "Practice array operations"
+    },
+    {
+      "id": "mat-3",
+      "course_id": "course-2",
+      "title": "Visualizing Trees & Graph Structures",
+      "type": "link",
+      "file_path": "https://visualgo.net/en"
+    },
+    {
+      "id": "mat-4",
+      "course_id": "course-3",
+      "title": "Recursion Call Stack Explanation Guide",
+      "type": "notes",
+      "file_path": "Understanding stack frames"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "quiz-1",
+      "course_id": "course-1",
+      "question": "What is the index of the first element in a standard array?",
+      "option1": "-1",
+      "option2": "0",
+      "option3": "1",
+      "option4": "None of the above",
+      "correct_answer": 2
+    },
+    {
+      "id": "quiz-2",
+      "course_id": "course-1",
+      "question": "Which of the following describes an array resizing overhead in dynamic arrays?",
+      "option1": "Constant time insertion",
+      "option2": "O(N) data copying operation during resize",
+      "option3": "No execution impact",
+      "option4": "Instant dynamic index allocation",
+      "correct_answer": 2
+    },
+    {
+      "id": "quiz-3",
+      "course_id": "course-2",
+      "question": "Which data structure operates on a Last In First Out (LIFO) queue principle?",
+      "option1": "Queue",
+      "option2": "Linked List",
+      "option3": "Stack",
+      "option4": "Binary Search Tree",
+      "correct_answer": 3
+    },
+    {
+      "id": "quiz-4",
+      "course_id": "course-2",
+      "question": "What is the time complexity of a lookup in a perfectly balanced Binary Search Tree (BST)?",
+      "option1": "O(1)",
+      "option2": "O(log N)",
+      "option3": "O(N)",
+      "option4": "O(N log N)",
+      "correct_answer": 2
+    },
+    {
+      "id": "quiz-5",
+      "course_id": "course-3",
+      "question": "What happens if a recursive function does not have a correct base condition?",
+      "option1": "The program compiles successfully and completes early",
+      "option2": "It causes a Stack Overflow error at runtime",
+      "option3": "Memory consumption stays constant",
+      "option4": "It resolves dynamically into an iterative loop",
+      "correct_answer": 2
+    }
+  ],
+  "results": [],
+  "performances": [
+    {
+      "id": "perf_466vsxcgs",
+      "student_id": "student_uz0pcq62d",
+      "attendance": 80,
+      "quiz_score": 70,
+      "assignment_score": 75,
+      "study_time": 4,
+      "previous_score": 70,
+      "predicted_category": "Average Performer",
+      "weak_topics": [
+        "Arrays"
+      ]
+    },
+    {
+      "id": "perf_py9qc6tkx",
+      "student_id": "student_u9oh17qw0",
+      "attendance": 80,
+      "quiz_score": 70,
+      "assignment_score": 75,
+      "study_time": 4,
+      "previous_score": 70,
+      "predicted_category": "Average Performer",
+      "weak_topics": [
+        "Arrays"
+      ]
+    }
+  ],
+  "trainedModelJSON": "{\"featureIndex\":1,\"threshold\":84.5,\"left\":{\"featureIndex\":0,\"threshold\":74.5,\"left\":{\"featureIndex\":0,\"threshold\":50.5,\"left\":{\"featureIndex\":3,\"threshold\":3.5,\"left\":{\"isLeaf\":true,\"value\":0},\"right\":{\"isLeaf\":true,\"value\":2},\"isLeaf\":false},\"right\":{\"featureIndex\":0,\"threshold\":73.5,\"left\":{\"featureIndex\":1,\"threshold\":62.5,\"left\":{\"isLeaf\":true,\"value\":0},\"right\":{\"isLeaf\":true,\"value\":0},\"isLeaf\":false},\"right\":{\"featureIndex\":2,\"threshold\":50,\"left\":{\"isLeaf\":true,\"value\":2},\"right\":{\"isLeaf\":true,\"value\":0},\"isLeaf\":false},\"isLeaf\":false},\"isLeaf\":false},\"right\":{\"featureIndex\":2,\"threshold\":67.5,\"left\":{\"featureIndex\":1,\"threshold\":83.5,\"left\":{\"featureIndex\":4,\"threshold\":68.5,\"left\":{\"isLeaf\":true,\"value\":1},\"right\":{\"isLeaf\":true,\"value\":1},\"isLeaf\":false},\"right\":{\"isLeaf\":true,\"value\":2},\"isLeaf\":false},\"right\":{\"featureIndex\":3,\"threshold\":7.5,\"left\":{\"isLeaf\":true,\"value\":1},\"right\":{\"featureIndex\":4,\"threshold\":71.5,\"left\":{\"isLeaf\":true,\"value\":1},\"right\":{\"isLeaf\":true,\"value\":1},\"isLeaf\":false},\"isLeaf\":false},\"isLeaf\":false},\"isLeaf\":false},\"right\":{\"featureIndex\":3,\"threshold\":8.5,\"left\":{\"featureIndex\":2,\"threshold\":87,\"left\":{\"featureIndex\":0,\"threshold\":95,\"left\":{\"isLeaf\":true,\"value\":2},\"right\":{\"isLeaf\":true,\"value\":1},\"isLeaf\":false},\"right\":{\"featureIndex\":0,\"threshold\":91.5,\"left\":{\"featureIndex\":0,\"threshold\":90.5,\"left\":{\"isLeaf\":true,\"value\":2},\"right\":{\"isLeaf\":true,\"value\":1},\"isLeaf\":false},\"right\":{\"isLeaf\":true,\"value\":2},\"isLeaf\":false},\"isLeaf\":false},\"right\":{\"featureIndex\":1,\"threshold\":98.5,\"left\":{\"featureIndex\":2,\"threshold\":87.5,\"left\":{\"featureIndex\":4,\"threshold\":97,\"left\":{\"isLeaf\":true,\"value\":2},\"right\":{\"isLeaf\":true,\"value\":2},\"isLeaf\":false},\"right\":{\"isLeaf\":true,\"value\":2},\"isLeaf\":false},\"right\":{\"featureIndex\":0,\"threshold\":93.5,\"left\":{\"featureIndex\":0,\"threshold\":91.5,\"left\":{\"isLeaf\":true,\"value\":2},\"right\":{\"isLeaf\":true,\"value\":0},\"isLeaf\":false},\"right\":{\"isLeaf\":true,\"value\":2},\"isLeaf\":false},\"isLeaf\":false},\"isLeaf\":false},\"isLeaf\":false}",
+  "modelMetrics": {
+    "accuracy": 0.83,
+    "confusionMatrix": [
+      [
+        21,
+        3,
+        0
+      ],
+      [
+        2,
+        33,
+        4
+      ],
+      [
+        3,
+        5,
+        29
+      ]
+    ],
+    "report": {
+      "Needs Improvement": {
+        "precision": 0.8076923076923077,
+        "recall": 0.875,
+        "f1Score": 0.8400000000000001,
+        "support": 24
+      },
+      "Average Performer": {
+        "precision": 0.8048780487804879,
+        "recall": 0.8461538461538461,
+        "f1Score": 0.8250000000000001,
+        "support": 39
+      },
+      "High Performer": {
+        "precision": 0.8787878787878788,
+        "recall": 0.7837837837837838,
+        "f1Score": 0.8285714285714285,
+        "support": 37
+      }
+    },
+    "trainSize": 400,
+    "testSize": 100
+  }
+}
